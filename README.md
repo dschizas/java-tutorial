@@ -2,8 +2,9 @@
 
 1. [Object oriented programming](#object-oriented-programming)
 2. [OOP Concepts](#concepts)
-3. [Immutable Objects](#immutable-objects)
-4. [Lambda Expressions](#lambda-expressions)
+3. [Design Patterns](#design-patterns)
+4. [Immutable Objects](#immutable-objects)
+5. [Lambda Expressions](#lambda-expressions)
 
 ## Object oriented programming
 Object-oriented programming is a method of programming based on a hierarchy of classes, and well-defined and cooperating objects.
@@ -23,6 +24,11 @@ An interface is a contract between a class and the outside world. When a class i
 
 ### Package
 A package is a namespace for organizing classes and interfaces in a logical manner. Placing your code into packages makes large software projects easier to manage.
+
+## Design Patterns
+In the simplest terms, such a common solution is a design pattern and the repository or place of reference that contains such patterns is a design-pattern catalog. A design pattern prescribes a proven solution from experienced hands for a recurring design problem. Apart from describing the problem and prescribing the solution, the pattern will also explain the implementation issues involved and consequences, if any, of using the pattern. These solutions are generic in nature. They are described in the well-defined "Pattern Templates"; the most common one in use is the template defined by the "Gang of Four." The pattern templates usually have a name that offers a good idea as to what that pattern is all about, followed by where the pattern is applicable, the motivation, implementation issues, and other descriptions.
+
+Use of such patterns makes the design of an application transparent. These patterns have been used successfully by developers in their respective work and hence the pros and cons of their use as well as implementation issues are known beforehand. All design patterns are reusable and can be adapted to a particular context; this gives developers flexibility.
 
 ## Immutable objects
 An object is considered immutable if its state cannot change after it is constructed.
