@@ -30,6 +30,11 @@ In the simplest terms, such a common solution is a design pattern and the reposi
 
 Use of such patterns makes the design of an application transparent. These patterns have been used successfully by developers in their respective work and hence the pros and cons of their use as well as implementation issues are known beforehand. All design patterns are reusable and can be adapted to a particular context; this gives developers flexibility.
 
+### Examples (Design Patters)
+
+Singleton Patters
+MVC Patters
+
 ## Immutable objects
 An object is considered immutable if its state cannot change after it is constructed.
 
