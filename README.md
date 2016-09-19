@@ -4,7 +4,8 @@
 2. [OOP Concepts](#concepts)
 3. [Design Patterns](#design-patterns)
 4. [Immutable Objects](#immutable-objects)
-5. [Lambda Expressions](#lambda-expressions)
+5. [Processes and Threads](#processes-and-threads)
+6. [Lambda Expressions](#lambda-expressions)
 
 ## Object oriented programming
 Object-oriented programming is a method of programming based on a hierarchy of classes, and well-defined and cooperating objects.
@@ -53,6 +54,13 @@ An object is considered immutable if its state cannot change after it is constru
 Immutable objects are particularly useful in concurrent applications. Since they cannot change state, they cannot be corrupted by thread interference or observed in an inconsistent state.
 
 Programmers are often reluctant to employ immutable objects, because they worry about the cost of creating a new object as opposed to updating an object in place. The impact of object creation is often overestimated, and can be offset by some of the efficiencies associated with immutable objects. These include decreased overhead due to garbage collection, and the elimination of code needed to protect mutable objects from corruption.
+
+## Processes and Threads
+In the Java programming language, concurrent programming is mostly concerned with threads. However, processes are also important.
+
+A computer system normally has many active processes and threads. This is true even in systems that only have a single execution core, and thus only have one thread actually executing at any given moment. Processing time for a single core is shared among processes and threads through an OS feature called time slicing.
+
+It's becoming more and more common for computer systems to have multiple processors or processors with multiple execution cores. This greatly enhances a system's capacity for concurrent execution of processes and threads — but concurrency is possible even on simple systems, without multiple processors or execution cores.
 
 ## Lambda expressions
 One issue with anonymous classes is that if the implementation of your anonymous class is very simple, such as an interface that contains only one method, then the syntax of anonymous classes may seem unwieldy and unclear. In these cases, you're usually trying to pass functionality as an argument to another method, such as what action should be taken when someone clicks a button. Lambda expressions enable you to do this, to treat functionality as method argument, or code as data.
